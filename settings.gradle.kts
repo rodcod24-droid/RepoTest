@@ -17,7 +17,7 @@ fun File.eachDir(block: (File) -> Unit) {
 rootProject.name = "CloudStreamPlugins"
 
 // Add each provider here
-include(":CuevanaProvider")
+include(":Cuevana")
 // include(":AnotherProvider")  // Add more providers like this
 
 // To only include a single project, comment out the previous lines (except the first one), and include your plugin like so:
