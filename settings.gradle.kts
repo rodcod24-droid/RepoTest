@@ -14,6 +14,11 @@ File(rootDir, ".").eachDir { dir ->
 fun File.eachDir(block: (File) -> Unit) {
     listFiles()?.filter { it.isDirectory }?.forEach { block(it) }
 }
+rootProject.name = "CloudStreamPlugins"
+
+// Add each provider here
+include(":CuevanaProvider")
+// include(":AnotherProvider")  // Add more providers like this
 
 // To only include a single project, comment out the previous lines (except the first one), and include your plugin like so:
 // include("PluginName")
