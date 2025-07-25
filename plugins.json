@@ -21,16 +21,16 @@
         "fileSize": 0,
         "status": 1,
         "authors": [
-            "Luna712"
+            "Rodo"
         ],
         "tvTypes": [
             "TvSeries"
         ],
         "version": 3,
         "internalName": "CuevanaProvider",
-        "jarUrl": "https://raw.githubusercontent.com/recloudstream/extensions/builds/CuevanaProvider.jar",
+        "jarUrl": "https://raw.githubusercontent.com/rodcod24-droid/RepoTest/builds/CuevanaProvider.jar",
         "description": "Watch content from Dailymotion",
-        "url": "https://raw.githubusercontent.com/recloudstream/extensions/builds/CuevanaProvider.cs3",
+        "url": "https://raw.githubusercontent.com/rodcod24-droid/RepoTest/builds/CuevanaProvider.cs3",
         "name": "DailymotionProvider"
     
 ]
